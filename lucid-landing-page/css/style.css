@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
+/*global css*/
+body{
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-1{
+	width: 8.3333% ;
+	float: left;
+}
+.col-md-2{
+	width: 16.6666% ;
+	float: left;
+}
+.col-md-3{
+	width: 24.9999%;
+	float: left;
+}
+.col-md-4{
+	width: 33.3332%;
+	float: left;
+}
+.col-md-5{
+	width: 41.6665%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-7{
+	width: 58.3331%;
+	float: left;
+}
+.col-md-8{
+	width: 66.6664%;
+	float: left;
+}
+.col-md-9{
+	width: 74.9997%;
+	float: left;
+}
+.col-md-10{
+	width: 83.333%;
+	float: left;
+}
+.col-md-11{
+	width: 91.6663%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+	
+}
+
+.no-padding{
+	padding: 0;
+}
+.header-section{
+  width: 100%;
+	float: left;
+	background: url(../img/bennar.png) no-repeat center;
+	background-size: cover;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+    background: url(../img/divider.png) center bottom no-repeat ;
+    font-size: 16px;
+    width: 100%;
+	  float: left;
+	
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	  background: url(../img/divider.png) center bottom no-repeat ;
+    font-size: 16px;
+    color: #008ed6;
+}
+.bennar-content{
+	width: 100%;
+
+}
+
+
+.header-section h5 {
+    color: #008ed6;
+    margin-top: 60px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header-section h1 {
+    color: #ffffff;
+    padding-top: 9px;
+}
+.header-section p{
+    color: #7f7f7f;
+    text-align: justify;
+    margin-top: 29px;
+}
+.btn-custom{
+    width: 177px;
+    margin-top: 80px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-bottom: 80px;
+}
+.btn-custom:hover{
+ 
+    border: 1px solid #008ed6;;
+    background: #008ed6;
+   
+}
+
+
+/*-----------------------Features section css----------------------*/
+
+.features{
+	width: 100%;
+	padding: 80px 0;
+	float: left;
+	border-bottom: 2px solid #f2f2f2;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.features h6{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #008ed6;
+  
+}
+.features h1{
+    text-align: center;
+    font-size: 32px;
+}
+.features h4{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 20px;
+}
+.features p{
+    color: #999999;
+    text-align: center;
+    font-size: 13px;
+    width: 75%;
+    margin-left: 31px;
+   
+}
+.divider{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 27px;
+  background: url(../img/divider.png) center top no-repeat;
+}
+.features img{
+	width: 26%;
+	margin: 0 auto;
+  display: block;
+  margin-top: 39px;
+}
+.bottom-padding{
+
+}
+
+/*-----------------------About section css----------------------*/
+.About-section{
+   width: 100%;
+   padding: 80px 0;
+   float: left;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.About-section h6{
+  
+    color: #008ed6;
+    letter-spacing: 2px;
+} 
+.About-section h1{
+    font-size: 31px;
+}
+.About-section img{
+	  width: 411px;
+    height: 464px;
+    margin-top: 35px;
+}
+.divider-a{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 27px;
+  background: url(../img/divider.png) left top no-repeat;
+}
+.About-section ul{
+   padding-left: 0;
+}
+.About-section ul li{
+   list-style: none;
+}
+.About-section ul li i{
+   margin-right: 13px;
+}
+.About-section p{
+	  color: #b4b4b4;
+    font-size: 13px;
+    width: 71%;
+  
+}
+.About-section .col-md-6 {
+    width: 50%;
+    float: left;
+   
+}
+/*-----------------------About-short section css----------------------*/
+.about-short{
+	width: 100%;
+	padding: 80px 0;
+	background: #f2f2f2;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-short img {
+    width: 561px;
+    height: 308px;
+
+}
+
+.about-short h6{
+    color: #008ed6;
+    letter-spacing: 1px;
+}
+.about-short h3{
+   font-size: 28px;
+}
+.about-short p{
+    color: #b4b4b4;
+    font-size: 13px;
+    width: 69%;
+}
+.divider-as{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 27px;
+  background: url(../img/divider.png) left top no-repeat;
+}
+
+
+/*-----------------------Testimonials section css----------------------*/
+
+.Testimonials{
+	width: 100%;
+	padding: 80px 0;
+	float: left;
+	background: url(../img/testimonials-bg.png) no-repeat center;
+	background-size: cover;
+	float: left;
+	height: 600px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.Testimonials .tag{
+     color: #008ed6;
+     text-align: center;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     font-size: 12px;
+}
+.Testimonials h3{
+    text-align: center;
+    color: #fff;
+}
+.divider-T{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 5px;
+  background: url(../img/divider.png) center bottom no-repeat;
+}
+.Testimonial-content{
+	margin-top: 50px;
+}
+.owl-carousel .item h4{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    font-style: italic;
+    padding: 015px;
+
+
+}
+
+.clint-details h6{
+   color: #ffff;
+   font-size: 16px;
+}
+.clint-details h5{
+	  font-size: 13px;
+    color: #ffff;
+    font-weight: 900;
+
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 85px;
+}
+
+
+
+
+/*---------------------Download section css---------------------*/
+
+.download-section{
+	width: 100%;
+	float: left;
+	background: #15141a;
+	padding: 70px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.download-section h1{
+   color:#ffffff;
+   font-weight: 300;
+   font-size: 25px;
+}
+
+.download-section h1 span{
+	font-size: 36px;
+	font-weight: 700;
+  color:#ffffff;
+}
+.btn-Features{
+    width: 158px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    
+}
+.btn-Features:hover{
+  
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+   
+}
+
+
+.btn-download{
+    width: 158px;
+    padding: 10px;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    
+}
+.btn-download:hover{
+  
+    border: 1px solid #008ed6;
+    background: transparent;
+    color: #fff;
+   
+}
+
+
+/*---------------------pricing section css---------------------*/
+
+.pricing-section{
+
+   width: 100%;
+   float: left;
+   padding: 47px 0;
+
+}
+.pricing-section .tag{
+	   text-transform: uppercase;
+     color: #008ed6;
+     text-align: center;
+     letter-spacing: 1px;
+     font-size: 12px;
+}
+.pricing-section h3{
+    text-align: center;
+    color: #000;
+}
+.divider-T{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 5px;
+  background: url(../img/divider.png) center bottom no-repeat;
+}
+
+.table-row{
+	margin-top: 50px;
+}
+.pricing-table{
+
+	border: 1px solid #e0e0e0;
+
+}
+.pricing-heading{
+   border-bottom: 1px solid #e0e0e0;
+   padding: 25px 20px;
+}
+.pricing-heading h2{
+     color: #333;
+     font-size: 36px;
+     font-weight: 700;
+     text-transform: uppercase;
+     transition: .4s ease-in-out;
+     
+}
+.pricing{
+   border-bottom: 1px solid #e0e0e0;
+   padding: 25px 20px;
+}
+.pricing h2{
+	position: relative;
+	font-size: 72px;
+  font-weight: 700;
+}
+.pricing h2::before{
+	content: "$";
+	position: absolute;
+	position: 700;
+	font-size: 26px;
+	top: 15px;
+	left: 72px;
+    
+}
+.pricing p{
+	color: #bbb;
+	font-size: 18px;
+	margin:0;
+	line-height: 12px; 
+}
+ 
+.pricing-details{
+   padding: 25px 20px;
+   transition: .4s ease-in-out;
+
+}
+.pricing-details p{
+	color:#bbb;
+	font-size: 15px; 
+
+}
+.pricing-details p span{
+	color: #008ed6; 
+}
+.btn-pricing{
+	  color: #008ed6; 
+    border:1px solid #ededed;
+    padding: 8px 34px;
+    transition: .4s ease-in-out;
+}
+.pricing-table:hover .pricing-heading h2{
+	color:#008ed6; 
+	cursor: pointer; 
+}
+.pricing-table:hover .pricing{
+	background-color:#008ed6; 
+	color: #fff; 
+	cursor: pointer;
+}
+.pricing-table:hover .pricing p{
+	background-color:#008ed6; 
+	color: #fff; 
+	cursor: pointer;
+}
+
+.pricing-table:hover .btn-pricing{
+	background-color:#008ed6; 
+	color: #fff; 
+	cursor: pointer;
+}
+
+/*----------Contact us css--------------*/
+
+.contact-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0 0 0;
+	background: #ededed;
+}
+.contact-section .tag{
+	   text-transform: uppercase;
+     color: #008ed6;
+     text-align: center;
+     letter-spacing: 1px;
+     font-size: 12px;
+}
+.contact-section h3{
+    text-align: center;
+    color: #000;
+}
+.divider-T{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 5px;
+  background: url(../img/divider.png) center bottom no-repeat;
+}
+
+
+
+
+.contact-part{
+	margin-top: 55px;
+
+}
+
+.contact-part img{
+	  margin: 0 auto;
+    display: block;
+
+}
+.contact-part h5{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #acacac;
+
+}
+.contact-part p{
+	text-align: center;
+	color: #acacac;
+	font-size: 14px;
+	line-height: 7px;
+
+}
+.contact-part .pointer{
+	  text-align: center;
+    color: #acacac;
+    font-size: 14px;
+    line-height: 0px;
+    margin-top: 20px;
+}
+
+.contact-form{
+	margin-top: 105px;
+}
+.form-background {
+    background: #000;
+    margin-bottom: -54px;
+    z-index: 10;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444348;
+    background-clip: padding-box;
+    border: 1px solid #444348;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 22px;
+    background: transparent;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+    margin-top: 22px;
+    width: 96%;
+    background: transparent;
+    color: #444348;
+    border: 1px solid #444348;
+    border-radius: .25rem;
+    padding: 7px;
+}
+.btn-contol {
+    
+    width: 98px;
+    background: transparent;
+    color: #444348;
+    border: 1px solid #444348;
+    border-radius: .25rem;
+    padding: 7px;
+    margin-left: 125px;
+}
+
+
+/*---------------Footer section css-----------------------*/
+
+
+footer{
+	width: 100%;
+	float: left;
+	padding: 9px 0;
+	margin-top: 10px;
+	background: #000;
+}
+.footer-media p{
+	margin-left: 70px;
+}
+.footer-media ul{
+	  padding: 0;
+    margin:0;
+}
+.footer-media ul li{
+	list-style: none;
+	text-align: center;
+	display: inline;
+}
+.footer-media ul li .fa{
+	  width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    background: #15a4fa;
+    line-height: 40px;
+    margin-top: 10px;
+    float: right;
+    color: #fff;
+
+}
+.footer-media ul li .fa:hover{
+	transform: scale(1.5,1.5);
+}
+.copyright{
+
+}
+.copyright p{
+	text-align: center;
+	color: #acacac;
+	margin-top: 15px;
+  margin-left: 97px;
+}
