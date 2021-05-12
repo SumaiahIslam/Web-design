@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*Muli*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Catamaran', sans-serif;
+    font-family: 'Muli', sans-serif;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  
+}
+.row{
+  width: 100%;
+  float: left;
+}
+.col-md-1{
+  width: 8.3333% ;
+  float: left;
+}
+.col-md-2{
+  width: 16.6666% ;
+  float: left;
+}
+.col-md-3{
+  width: 24.9999%;
+  float: left;
+}
+.col-md-4{
+  width: 33.3332%;
+  float: left;
+}
+.col-md-5{
+  width: 41.6665%;
+  float: left;
+}
+.col-md-6{
+  width: 50%;
+  float: left;
+}
+.col-md-7{
+  width: 58.3331%;
+  float: left;
+}
+.col-md-8{
+  width: 66.6664%;
+  float: left;
+}
+.col-md-9{
+  width: 74.9997%;
+  float: left;
+}
+.col-md-10{
+  width: 83.333%;
+  float: left;
+}
+.col-md-11{
+  width: 91.6663%;
+  float: left;
+}
+.col-md-12{
+  width: 100%;
+  float: left;
+  
+}
+
+/*-------------------------Header section---------------------
+---------------------------------css--------------------------*/
+.header-section{
+    width: 100%;
+    float: left;
+    background: url(../img/header-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 726px;
+}
+
+.header-section .bg-light {
+	background-color: transparent!important;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.header-section .body p{
+   color: #f4f6f8;
+   margin-top: 299px;
+   font-size: 12px;
+   width: 324px;
+   margin-left: 14px;
+}
+.header-section .body .btn-primary{
+    color: #fff;
+    background-color: #ff690f;
+    border-color: #ff690f;
+    margin-top: 22px;
+}
+
+/*-------------------------Offer section---------------------
+---------------------------------css--------------------------*/
+
+.offer-section{
+   width: 100%;
+   float: left;
+   padding: 41px;
+   background-size: #f7f8f8;
+}
+.offer-section h3{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+}
+.offer-section p{
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    padding: 13px 265px;
+}
+
+.offer-section .im-1{
+    display: block;
+    margin: 0 auto;
+    width: 102px;
+    margin-top: 45px;
+}
+.offer-section .im-2{
+    display: block;
+    margin: 0 auto;
+    width: 84px;
+    margin-top: 45px;
+}
+.offer-section .im-3{
+    display: block;
+    margin: 0 auto;
+    width: 111px;
+    margin-top: 58px;
+}
+.offer-section h6{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 31px;
+    color: #b0b0b0;
+}
+.offer-section .h6-2{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 18px;
+    color: #b0b0b0;
+    text-transform: uppercase;
+}
+.offer-section .h6-3{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 42px;
+    color: #b0b0b0;
+    text-transform: uppercase;
+}
+.offer-section .im-p{
+    font-size: 13px;
+    color: #000;
+    width: 159px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 49px;
+    margin-top: 14px;
+}
+.offer-section .btn-primary{
+    color: #fff;
+    background-color: #ff690f;
+    border-color: #ff690f;
+    
+}
+.offer-section .btn-primary-2{
+    color: #fff;
+    background-color: #ff690f;
+    border-color: #ff690f;
+    margin-top: 22px;
+    margin-left: 73px;
+    
+}
+.offer-section .btn-primary-3{
+    color: #fff;
+    background-color: #ff690f;
+    border-color: #ff690f;
+    margin-top: 22px;
+    margin-left: 73px;
+    
+}
+/*-------------------------Gallery section---------------------
+---------------------------------css--------------------------*/
+.gallery-section{
+    width: 100%;
+    float: left;
+    padding: 33px;
+    background:#f7f7f7;
+}
+.gallery-section .img-1{
+    margin: 0 30px;
+}
+.gallery-section .img-2{
+    margin: 0 0;
+}
+.gallery-section .img-3{
+    margin: 0px -30px;
+}
+.gallery-section .img-4{
+    margin-top: -228px;
+    margin-left: 30px;
+}
+.gallery-section .img-5{
+    margin-top: -228px;
+}
+.gallery-section .img-6{
+    margin-left: 370px;
+    margin-top: -219px;
+}
+.gallery-section .img-7{
+    margin-left: 340px;
+    margin-top: -251px;
+}
+/*-------------------------Offer section---------------------
+---------------------------------css--------------------------*/
+.crew-section{
+  width: 100%;
+  float: left;
+  padding: 35px 0;
+  background:#f7f7f7;
+}
+.crew-section h2{
+	text-align: center;
+	font-weight: 900;
+}
+.crew-section img{
+	display: block;
+    margin: 0 auto;
+    width: 137px;
+    margin-top: 37px;
+}
+.crew-section h6{
+	text-align: center;
+	color: #696969;
+	margin-top: 22px;
+    font-size: 11px;
+}
+.crew-section h5{
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 34px;
+}
+
+/*-------------------------About section---------------------
+---------------------------------css--------------------------*/
+.about-section{
+   width: 100%;
+   float: left;
+   background:url(../img/about-bg.jpg) no-repeat center;
+   background-size: cover;
+   height: 600px;
+
+}
+.about-section h2{
+  font-family: 'Catamaran', sans-serif;
+  margin-top: 91px;
+  width: 54%;
+  font-weight: 900;
+}
+.about-section p{
+  margin-top: 20px;
+  width: 77%;
+  font-size: 12px;
+  color: #696969;
+}
+.about-section .about-body p{
+	color: #ff660d;
+    font-size: 31px;
+    font-weight: 900;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 0px;
+
+}
+.about-section .about-body h6{
+	 color: #696969;
+}
+
+/*-------------------------Testimonial section---------------------
+---------------------------------css--------------------------*/
+.testimonial-section{
+   width: 100%;
+   float: left;
+   background:#f7f7f7;
+   padding-bottom: 50px;
+}
+.testimonial-section h3{
+	text-align: center;
+    font-weight: 900;
+    font-size: 38px;
+    margin-top: 60px;
+}
+.testimonial-section img{
+	
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+.testimonial-section .owl-theme .item h6{
+	
+	text-align: center;
+    margin-top: 15px;
+    color: #000;
+    font-weight: 900;
+}
+.testimonial-section .owl-theme .item p{
+	text-align: center;
+    width: 47%;
+    margin-left: 316px;
+    font-size: 11px;
+    margin-top: 15px;
+    color: #b7b7b7;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    color: orange;
+}
